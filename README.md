@@ -1,6 +1,6 @@
 # Kaggle
 
-This is my combined repository for all my Kaggle competitions.
+This is a combined repository for all of my Kaggle competitions. My scripts and other items are available here.
 
 #Status and Achievements
 
