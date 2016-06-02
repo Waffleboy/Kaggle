@@ -230,7 +230,7 @@ def splitDataset(dataset,target,testsize=0.2):
 #                           Models
 #==============================================================================
 def xgBoost():
-    clf = xgb.XGBClassifier(max_depth = 8,n_estimators=100,nthread=8,seed=1,silent=1,
+    clf = xgb.XGBClassifier(max_depth = 8,n_estimators=300,nthread=8,seed=1,silent=1,
                             objective= 'multi:softprob',learning_rate=0.1,subsample=0.9)
     return clf
 
